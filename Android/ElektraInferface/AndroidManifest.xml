@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.example.elektrainferface"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+    <!-- Adiciona permissao para acessar a REDE/Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Elektra" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityPrincipal"
+            android:label="Cômodos" >
+        </activity>
+        <activity
+            android:name=".QuartoActivity"
+            android:label="Quarto" >
+        </activity>
+        <activity
+            android:name=".BanheiroActivity"
+            android:label="Banheiro" >
+        </activity>
+        <activity
+            android:name=".CozinhaActivity"
+            android:label="Cozinha" >
+        </activity>
+        <activity
+            android:name=".SalaActivity"
+            android:label="Sala" >
+        </activity>
+        <activity
+            android:name=".ConfiguracaoActivity"
+            android:label="Configuração" >
+        </activity>
+        <activity
+            android:name=".AreaActivity"
+            android:label="Quintal" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="br.com.example.elektrainferface.QuartoActivity" >
+
+    <ImageView
+        android:id="@+id/imgvLampada"
+        android:layout_width="247dp"
+        android:layout_height="47dp"
+        android:layout_x="8dp"
+        android:layout_y="8dp"
+        android:src="@drawable/lampada" />
+
+    <ToggleButton
+        android:id="@+id/btLampadaQuarto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="230dp"
+        android:layout_y="12dp"
+        android:text="ToggleButton"
+        android:textOff="Desligada"
+        android:textOn="Ligada" />
+
+    <Button
+        android:id="@+id/btVoltarQuarto"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="120dp"
+        android:text="Voltar" />
+
+    <ToggleButton
+        android:id="@+id/btVentilador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="231dp"
+        android:layout_y="64dp"
+        android:text="ToggleButton"
+        android:textOff="Desligada"
+        android:textOn="Ligada" />
+
+<ImageView
+    android:id="@+id/imgvVentilador"
+    android:layout_width="247dp"
+    android:layout_height="47dp"
+    android:layout_x="8dp"
+    android:layout_y="66dp"
+    android:src="@drawable/ventilador" />
+
+</AbsoluteLayout>

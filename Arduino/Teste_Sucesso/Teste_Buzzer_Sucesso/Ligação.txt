@@ -1,0 +1,4 @@
+Ligar GND;
+Ligar 5V;
+Ligar Porta 3;
+Colocar resistor na porta;

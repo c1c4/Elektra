@@ -1,0 +1,157 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="br.com.example.elektrainferface.MainActivity" >
+
+    <Button
+        android:id="@+id/btnSala"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_x="45dp"
+        android:layout_y="290dp"
+        android:background="@drawable/sofadesativado" />
+
+    <Button
+        android:id="@+id/btnQuintal"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_x="195dp"
+        android:layout_y="180dp"
+        android:background="@drawable/matodesativado" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_x="195dp"
+        android:layout_y="290dp"
+        android:background="@drawable/btnsair" />
+
+    <Button
+        android:id="@+id/btnBanheiro"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_x="45dp"
+        android:layout_y="180dp"
+        android:background="@drawable/chuveirodesativado" />
+
+    <ImageView
+        android:id="@+id/divisoria1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="159dp"
+        android:src="@drawable/divisoria" />
+
+    <ImageView
+        android:id="@+id/divisoria22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="268dp"
+        android:src="@drawable/divisoria" />
+
+    <ImageView
+        android:id="@+id/imgBemVindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="8dp"
+        android:src="@drawable/bemvindo" />
+
+    <Button
+        android:id="@+id/btnQuarto"
+        style="@style/AppBaseTheme"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_x="45dp"
+        android:layout_y="65dp"
+        android:background="@drawable/btnquartodesativado" />
+
+    <TextView
+        android:id="@+id/txtQuarto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="132dp"
+        android:text="Quarto"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Branco" />
+
+    <Button
+        android:id="@+id/btnCozinha"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_x="195dp"
+        android:layout_y="65dp"
+        android:background="@drawable/btncozinhadesativado" />
+
+    <TextView
+        android:id="@+id/txtBanheiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="246dp"
+        android:text="Banheiro"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Branco" />
+
+    <ImageView
+        android:id="@+id/divisoria11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="159dp"
+        android:src="@drawable/divisoria" />
+
+    <ImageView
+        android:id="@+id/divisoria2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="268dp"
+        android:src="@drawable/divisoria" />
+
+    <TextView
+        android:id="@+id/txtQuintal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="247dp"
+        android:text="Quintal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Branco" />
+
+    <TextView
+        android:id="@+id/txtCozinha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="205dp"
+        android:layout_y="132dp"
+        android:text="Cozinha"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Branco" />
+
+    <TextView
+        android:id="@+id/txtSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="354dp"
+        android:text="Sala"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Branco" />
+
+    <TextView
+        android:id="@+id/txtConfiguracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="223dp"
+        android:layout_y="355dp"
+        android:text="Sair"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Branco" />
+
+</AbsoluteLayout>
